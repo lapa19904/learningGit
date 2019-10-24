@@ -1,0 +1,11 @@
+Proszê o wykonanie kodu HTML/CSS/JS dla przedstawionego projektu graficznego.
+
+Kilka wytycznych:
+
+- Czcionka "lato" z Google Web Fonts - https://fonts.google.com/specimen/Lato
+- Slider animowany, slogan ten sam na obu sliderach (slider1.png / slider2.png)
+- nie narzucamy ¿adnych rozwi¹zañ ani bibliotek.
+
+Ocenimy jakoœæ, d³ugoœæ kodu oraz sam¹ strukturê.
+
+Termin czwartek 21 grudnia 2017.

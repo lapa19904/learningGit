@@ -1,0 +1,234 @@
+@media only screen and (max-width:1240px){
+    .search-box{
+        width: 350px;
+    }
+    
+}
+@media only screen and (max-width:1150px){
+    .nav-list{
+        font-size: 1.6rem;
+    }
+    ul li{
+        padding: 15px;
+    }
+    .search-box input{
+        width: 250px;
+        padding: 10px;
+       
+    }
+    
+    .banner{
+        width: 900px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+    }
+    .banner img{
+        width: 800px;
+    }
+    .products-title{
+        padding-left: 250px;
+        flex: 0 0 97.1%;
+    }
+    .fb-link{
+        flex: 0 0 31.8%;
+        margin-left: 15px;
+    }
+    .items .row{
+        margin-bottom: 250px;
+    }
+    .row{
+        max-width: 800px;
+        
+    }
+    .item-img-box{
+        width: 254px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .search-box{
+        width: 300px;
+        }
+    button{
+        font-size: 3rem; 
+    }
+}
+@media only screen and (max-width:950px){
+    .search-box{
+        width: 100%;
+        top:45px;
+        text-align: center;
+    }
+    .span-6-of-8{
+        width: 100%;  
+    }
+    input{
+        width: 70%;
+    }
+    input:placeholder-shown{
+        text-align: center;
+    }
+    .banner{
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width:850px){
+    .header-contact{
+        margin-right: 0;
+    }
+    .nav-list{
+        font-size: 1.4rem;
+    }
+    .banner{
+        width: 690px; 
+    }
+    .banner img{
+        width: 690px;
+    }
+    .products-title{
+        padding-left: 250px;
+    }
+    .row{
+        max-width: 690px;
+    }
+    .items .row{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 1300px;
+    }
+    .item-img-box{
+        width: 600px;
+        height: 300px;
+    }
+    
+}
+@media only screen and (max-width:787px){
+    .nav-list{
+        width: 100%;
+        display: block;
+        padding: 35px;
+        
+    }
+    .nav-list li{
+        width: 100%;
+        display: none;
+        padding: 0;
+        
+    }
+    .nav-list li:first-child{
+        background-color: inherit;
+    }
+    .nav-list li a:link,
+    .nav-list li a:visited{
+        display: block;
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        outline: none;
+    }
+    .search-box{
+        display: none;
+    }
+    .banner{
+        margin-top: 40px;
+        width: 700px; 
+    }
+    .banner img{
+        width: 700px;
+    }
+    .offer{
+        font-size: 1.5rem;
+    }
+    .products-title{
+        padding-left: 250px;
+    }
+    .items .row{
+        align-items: center;
+    }
+    .item-img-box{
+        width: 450px;
+    } 
+    .fb-link{
+        flex: 0 0 38.35%;
+        margin-left: 15px;
+    }
+    
+    
+}
+@media only screen and (max-width:700px){
+    .products-title{
+        padding-left: 280px;
+        flex: 0 0 105%;
+    }
+    footer .row{
+        width: 550px;
+    }
+}
+@media only screen and (max-width:580px){
+    header .row{
+        flex-direction: column;
+    }
+    .header-contact{
+        margin-bottom: 20px;
+        justify-self: flex-end;
+        align-self: flex-end;
+    }
+    .banner{
+        margin-top: 10px;
+    }
+    .banner-row-text{
+        bottom: 2px;
+        left: 150px;
+        height: 40px;
+        font-size: 1.6rem;
+        padding-bottom: 52px;
+        width: 60%;
+    }
+    .products-title{
+        flex: 0 0 110%;
+    }
+    .item-img-box p,
+    h3{
+        margin-left: 10px;
+    }
+    footer .row{
+        width: 450px;
+    }
+    
+}
+@media only screen and (max-width:520px){
+
+}
+@media only screen and (max-width:480px){
+    
+    .products-title,
+    .box,
+    .white-box{
+        display: none;
+    }
+    
+    .items p{
+        font-size: 1.2rem;
+        display: block;
+        
+    }
+    .item-img-box{
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    h3{
+        text-align: center;
+    }
+    footer .row{
+        width: 300px;
+    }
+    
+}

@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 10px;
+    overflow-x: hidden;
+    position: relative;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h3{
+    text-align: left;
+    color: #A6CD3C;
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/******************************/
+/********** HEADER ************/
+/******************************/
+header .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header{
+    background-color: #E6E7E9;
+}
+.header-contact{
+    border-right: 1px solid #808080;
+    font-size: 1.4rem;
+    text-align: right;
+    color: #808080;
+    flex: 1;
+    padding-right: 15px;
+}
+/*** nav **/
+nav{
+    background-color:#A6CD3C;
+    font-size: 1.8rem;
+    position: relative;
+}
+ul{
+    list-style: none;
+    color: #fff;
+    height: 100%;
+    display: block;
+}
+ul li{
+    display: inline-block;
+    padding: 25px;
+}
+nav ul li:first-child{
+    background-color: #808080;
+
+}
+/***Mobile navigation **/
+.mobile-nav-icon{
+    float: right;
+    cursor: pointer;
+    display: none;
+    font-size: 200%;
+    color: #fff;
+}
+/*** search-box ***/
+.search-box{
+    background-color: #808080;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    width: 500px;
+}
+.search-box input{
+    border: none;
+    font-size: 1.6rem;
+    background-color: #808080;
+    vertical-align: middle;
+    color: #fff;
+    padding: 28px 22px 22px 22px;
+    outline: none;
+}
+.search-box input::-webkit-input-placeholder{
+    font-style: italic;
+    color: #fff;
+}
+.search-box input:-ms-input-placeholder{
+    font-style: italic;
+    color: #fff;
+}
+.search-box input::placeholder{
+    font-style: italic;
+    color: #fff;
+}
+button {
+    background-color: #808080;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    vertical-align: middle;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+/******************************/
+/********** BANNER ************/
+/******************************/
+.banner{
+    margin: 20px auto 0 auto;
+    position: relative;
+}
+.banner img{
+    width: 1140px;
+}
+.banner img{
+    border-bottom: 5px solid #808080;
+}
+.banner-row-text{
+    background-color: #A6CD3C;
+    width: 120%;
+    padding-right: 250px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    font-size: 2.5rem;
+    padding: 30px 0 0 30px;
+    color: #fff;
+    border-bottom: 5px solid #808080;    
+}
+/******************************/
+/********** OFFER ************/
+/******************************/
+.offer{
+    margin: 30px 0;
+    font-size: 2.2rem;
+    color:#fff;
+}
+.offer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.products-title{
+    padding: 30px 0 30px 250px;
+    background-color: #808080;
+    margin-left: -250px;
+    flex: 0 0 87.9%;
+    text-align: left;
+}
+.box{
+    background-color: #808080;
+    padding: 30px 0;
+}
+.fb-link{
+    background-color: #A6CD3C;
+    text-align: center;
+    padding: 30px 0;
+    flex: 1;
+    justify-self: flex-end;
+    margin-left: 22.2px;
+}
+/******************************/
+/********** ITEMS ************/
+/******************************/
+.items .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.item-img-box{
+    text-align: left;
+    width: 365px;
+    height: 200px;
+}
+.item-img-box img{
+    height: 100%;
+    width: 100%;
+}
+.items p {
+    font-size: 1.6rem;
+    margin-bottom: 45px;
+    color: #808080;
+}
+/******************************/
+/********** FOOTER ************/
+/******************************/
+footer{
+    background-color:  #d5d6d8;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
